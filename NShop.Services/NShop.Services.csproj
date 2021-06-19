@@ -4,4 +4,10 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\NShop.Common\NShop.Common.csproj" />
+    <ProjectReference Include="..\NShop.Models\NShop.Models.csproj" />
+    <ProjectReference Include="..\NShop.Repositories\NShop.Repositories.csproj" />
+  </ItemGroup>
+
 </Project>
