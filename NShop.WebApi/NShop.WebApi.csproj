@@ -4,5 +4,18 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="FluentValidation.AspNetCore" Version="10.2.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.16" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.1.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NShop.Common\NShop.Common.csproj" />
+    <ProjectReference Include="..\NShop.Data\NShop.Data.csproj" />
+    <ProjectReference Include="..\NShop.Models\NShop.Models.csproj" />
+    <ProjectReference Include="..\NShop.Services\NShop.Services.csproj" />
+  </ItemGroup>
+
 
 </Project>
