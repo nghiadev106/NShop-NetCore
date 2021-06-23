@@ -3,15 +3,12 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Identity;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
-using NShop.Common;
 using NShop.Data.EF;
 using NShop.Data.Entities;
 using NShop.Models.Users;
@@ -20,10 +17,7 @@ using NShop.Repositories.Common;
 using NShop.Repositories.Infrastructure;
 using NShop.Services;
 using NShop.Services.Interfaces;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace NShop.WebApi
 {
@@ -73,7 +67,7 @@ namespace NShop.WebApi
 
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Swagger nShop ", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Swagger NShop ", Version = "v1" });
 
                 c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
                 {

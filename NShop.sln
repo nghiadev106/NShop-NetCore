@@ -3,17 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31005.135
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NShop.Data", "NShop.Data\NShop.Data.csproj", "{8AE8BA15-7616-48EC-8D63-4D8E12184D62}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NShop.Data", "NShop.Data\NShop.Data.csproj", "{8AE8BA15-7616-48EC-8D63-4D8E12184D62}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NShop.Repositories", "NShop.Repositories\NShop.Repositories.csproj", "{AA152CE4-98C8-43B1-ADA1-C622AA213C93}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NShop.Repositories", "NShop.Repositories\NShop.Repositories.csproj", "{AA152CE4-98C8-43B1-ADA1-C622AA213C93}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NShop.Services", "NShop.Services\NShop.Services.csproj", "{4116E37C-E103-4854-A698-9C5F56B9EFA4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NShop.Services", "NShop.Services\NShop.Services.csproj", "{4116E37C-E103-4854-A698-9C5F56B9EFA4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NShop.Models", "NShop.Models\NShop.Models.csproj", "{844D7C88-788E-4C9E-AD78-C8DF9B9EC601}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NShop.Models", "NShop.Models\NShop.Models.csproj", "{844D7C88-788E-4C9E-AD78-C8DF9B9EC601}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NShop.Common", "NShop.Common\NShop.Common.csproj", "{71B916B8-7DF5-435A-B994-3E1CAE219DD6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NShop.Common", "NShop.Common\NShop.Common.csproj", "{71B916B8-7DF5-435A-B994-3E1CAE219DD6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NShop.WebApi", "NShop.WebApi\NShop.WebApi.csproj", "{43C35DBE-48FE-4DDD-8DF3-21552CCB9726}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NShop.WebApi", "NShop.WebApi\NShop.WebApi.csproj", "{43C35DBE-48FE-4DDD-8DF3-21552CCB9726}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NShop.AdminApp", "NShop.AdminApp\NShop.AdminApp.csproj", "{333E97F5-4054-4408-B2F5-F35CB8796B7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NShop.ApiIntegration", "NShop.ApiIntegration\NShop.ApiIntegration.csproj", "{8E29FDD1-C543-4854-9517-025CD3CE75CB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +49,14 @@ Global
 		{43C35DBE-48FE-4DDD-8DF3-21552CCB9726}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{43C35DBE-48FE-4DDD-8DF3-21552CCB9726}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{43C35DBE-48FE-4DDD-8DF3-21552CCB9726}.Release|Any CPU.Build.0 = Release|Any CPU
+		{333E97F5-4054-4408-B2F5-F35CB8796B7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{333E97F5-4054-4408-B2F5-F35CB8796B7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{333E97F5-4054-4408-B2F5-F35CB8796B7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{333E97F5-4054-4408-B2F5-F35CB8796B7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E29FDD1-C543-4854-9517-025CD3CE75CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E29FDD1-C543-4854-9517-025CD3CE75CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E29FDD1-C543-4854-9517-025CD3CE75CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E29FDD1-C543-4854-9517-025CD3CE75CB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
